@@ -1,0 +1,143 @@
+/* Form Fields */
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.star {
+  color: #ef4444;
+}
+
+input, select {
+  padding: 10px 12px;
+  font-size: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #ff944c;
+}
+
+/* Cards & Flexible Rows */
+.card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 18px;
+  background-color: #f8fafc;
+  margin-bottom: 14px;
+}
+
+.card p, .card ul {
+  margin-top: 8px;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Status Badges */
+.badge {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 14px;
+}
+
+.green { background-color: #dcfce7; color: #166534; }
+.red { background-color: #fee2e2; color: #991b1b; }
+
+/* Flexible Visitor Pass */
+.search {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.search .field {
+  flex: 1;
+  min-width: 220px;
+  margin-bottom: 0;
+}
+
+.pass {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 2px solid #ff944c;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.head {
+  background-color: #ff944c;
+  color: #ffffff;
+  padding: 14px 20px;
+}
+
+.info {
+  background-color: #f1f5f9;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 14px;
+}
+
+.body {
+  padding: 20px;
+}
+
+.qr {
+  width: 90px;
+  height: 90px;
+  border: 2px solid #0f172a;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.note {
+  background-color: #fff3eb;
+  color: #ea580c;
+  text-align: center;
+  padding: 10px;
+  font-size: 13px;
+  border-top: 1px solid #fed7aa;
+}
+
+/* Active Visitors Stats & Exit Button */
+.num {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff944c;
+}
+
+.exit {
+  background-color: #ef4444;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 14px;
+  border-radius: 8px;
+}
